@@ -6,6 +6,7 @@ ARG MODULE_VERSION=master
 ARG MODULE_NAME=nginx-vts-module-src
 ARG MODULE_SOURCE=https://github.com/nginx-with-docker/nginx-vts-module-src
 
+RUN apk add unzip
 RUN cd /usr/src && \
     curl -L "${MODULE_SOURCE}/archive/refs/heads/${MODULE_VERSION}.zip" -o "v${MODULE_VERSION}.zip" && \
     echo "${MODULE_CHECKSUM}  v${MODULE_VERSION}.zip" | shasum -c && \
