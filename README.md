@@ -19,8 +19,8 @@ Nginx virtual host traffic status module.
             <td>1.21.0</td>
             <td>0.1.18</td>
             <td><ul>
-                <li>docker pull soulteary/prebuilt-nginx-modules:vts-1.21.0</li>
-                <li>docker pull soulteary/prebuilt-nginx-modules:vts-1.21.0-alpine</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-vts-0.1.18</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-vts-0.1.18-alpine</li>
             </ul></td>
         </tr>
     </tbody>
