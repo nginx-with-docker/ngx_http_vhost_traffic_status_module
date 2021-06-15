@@ -23,5 +23,17 @@ Nginx virtual host traffic status module.
                 <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-vts-0.1.18-alpine</li>
             </ul></td>
         </tr>
+        <tr>
+            <td>1.21.0</td>
+            <td>master</td>
+            <td><ul>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-vts-master</li>
+                <li>docker pull soulteary/prebuilt-nginx-modules:ngx-1.21.0-vts-master-alpine</li>
+            </ul></td>
+        </tr>
     </tbody>
 </table>
+
+## TODO
+
+- try merge changes: https://github.com/vozlt/nginx-module-vts/pull/194
